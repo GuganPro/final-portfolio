@@ -18,7 +18,7 @@ export function HeroSection() {
     <section id="hero" className="relative flex items-center justify-center min-h-screen py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
       <div className="absolute inset-0 -z-20 h-full w-full bg-gradient-to-br from-background via-primary/5 to-secondary/10 animate-gradient-shift bg-400%" />
       
-      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-12">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-12 pt-10 lg:pt-0">
         <div className="max-w-xl text-center lg:text-left">
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold mb-6">
             <span className="block">GUGAN.V</span>
@@ -61,7 +61,7 @@ export function HeroSection() {
             </Link>
           </div>
         </div>
-        <div className="w-full max-w-md lg:max-w-none lg:w-2/5 hidden lg:flex justify-center lg:justify-end mt-10 lg:mt-0">
+        <div className="w-full max-w-md lg:max-w-none lg:w-2/5 flex justify-center lg:justify-end mt-10 lg:mt-0">
           <Image
             src="https://placehold.co/400x600.png"
             alt="Gugan.V Profile Picture Placeholder"
