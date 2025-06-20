@@ -95,6 +95,11 @@ export default {
         float: {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-10px)' },
+        },
+        shake: {
+          '0%, 100%': { transform: 'translateX(0)' },
+          '10%, 30%, 50%, 70%, 90%': { transform: 'translateX(-5px)' },
+          '20%, 40%, 60%, 80%': { transform: 'translateX(5px)' },
         }
       },
       animation: {
@@ -102,6 +107,7 @@ export default {
         'accordion-up': 'accordion-up 0.2s ease-out',
         'gradient-shift': 'gradient-shift 15s ease infinite',
         'float': 'float 3s ease-in-out infinite',
+        'shake': 'shake 0.8s cubic-bezier(.36,.07,.19,.97) infinite',
       },
       backgroundSize: {
         '400%': '400% 400%',

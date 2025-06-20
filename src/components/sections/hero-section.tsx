@@ -61,13 +61,13 @@ export function HeroSection() {
             </Link>
           </div>
         </div>
-        <div className="w-full max-w-md lg:max-w-none lg:w-2/5 flex justify-center lg:justify-end mt-10 lg:mt-0">
+        <div className="w-full max-w-md lg:max-w-none lg:w-2/5 hidden lg:flex justify-center lg:justify-end mt-10 lg:mt-0">
           <Image
             src="https://placehold.co/400x600.png"
             alt="Gugan.V Profile Picture Placeholder"
             width={400}
             height={600}
-            className="rounded-lg shadow-2xl object-cover border-4 border-primary/30 glow-effect"
+            className="rounded-lg shadow-2xl object-cover border-4 border-primary/30 glow-effect animate-shake"
             data-ai-hint="developer portrait"
             priority
           />
