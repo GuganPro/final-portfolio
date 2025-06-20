@@ -67,7 +67,7 @@ export function HeroSection() {
             alt="Gugan.V Profile Picture Placeholder"
             width={400}
             height={600}
-            className="rounded-lg shadow-2xl object-cover border-4 border-primary/30 glow-effect animate-shake"
+            className="rounded-lg shadow-2xl object-cover border-4 border-primary/30 glow-effect animate-float-vertical"
             data-ai-hint="developer portrait"
             priority
           />

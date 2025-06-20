@@ -96,11 +96,15 @@ export default {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-10px)' },
         },
-        shake: {
-          '0%': { transform: 'translateX(0px) rotate(0deg)' },
-          '25%': { transform: 'translateX(-1.5px) rotate(-0.4deg)' },
-          '75%': { transform: 'translateX(1.5px) rotate(0.4deg)' },
-          '100%': { transform: 'translateX(0px) rotate(0deg)' },
+        'float-vertical': {
+          '0%, 100%': { transform: 'translateY(-8px)' },
+          '50%': { transform: 'translateY(8px)' },
+        },
+        shake: { // Keeping the shake animation in case it's used elsewhere or for future reference
+          '0%, 100%': { transform: 'translateX(0px) rotate(0deg)' },
+          '25%': { transform: 'translateX(-0.5px) rotate(-0.1deg)' }, // Reduced intensity
+          '50%': { transform: 'translateX(0.5px) rotate(0.1deg)' },  // Reduced intensity
+          '75%': { transform: 'translateX(-0.5px) rotate(-0.1deg)' }, // Reduced intensity
         }
       },
       animation: {
@@ -108,7 +112,8 @@ export default {
         'accordion-up': 'accordion-up 0.2s ease-out',
         'gradient-shift': 'gradient-shift 15s ease infinite',
         'float': 'float 3s ease-in-out infinite',
-        'shake': 'shake 2.8s ease-in-out infinite',
+        'float-vertical': 'float-vertical 4s ease-in-out infinite', // Added new animation
+        'shake': 'shake 3.5s ease-in-out infinite', // Adjusted timing for smoother shake
       },
       backgroundSize: {
         '400%': '400% 400%',
