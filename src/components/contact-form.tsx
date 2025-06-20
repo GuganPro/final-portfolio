@@ -15,7 +15,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { useActionState } from "react"; // Updated import
+import { useActionState } from "react";
 import { submitContactForm, type ContactFormState } from "@/lib/actions";
 import { useEffect } from "react";
 import { useToast } from "@/hooks/use-toast";
@@ -35,7 +35,7 @@ const initialState: ContactFormState = {
 };
 
 export function ContactForm() {
-  const [state, formAction] = useActionState(submitContactForm, initialState); // Renamed hook
+  const [state, formAction] = useActionState(submitContactForm, initialState);
   const { toast } = useToast();
 
   const form = useForm<ContactFormData>({

@@ -15,7 +15,7 @@ import {
 } from "@/components/ui/form";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { useActionState, useEffect, useState } from "react"; // Updated import
+import { useActionState, useEffect, useState } from "react";
 import { analyzePortfolioContentAction, type AIAnalyzerState } from "@/lib/actions";
 import { Loader2, Sparkles, CheckCircle, AlertTriangle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
@@ -32,7 +32,7 @@ const initialState: AIAnalyzerState = {
 };
 
 export function AiAnalyzerSection() {
-  const [state, formAction] = useActionState(analyzePortfolioContentAction, initialState); // Renamed hook
+  const [state, formAction] = useActionState(analyzePortfolioContentAction, initialState);
   const { toast } = useToast();
   const [isLoading, setIsLoading] = useState(false);
 
