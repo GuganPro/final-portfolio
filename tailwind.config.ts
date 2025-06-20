@@ -97,9 +97,10 @@ export default {
           '50%': { transform: 'translateY(-10px)' },
         },
         shake: {
-          '0%, 100%': { transform: 'translateX(0)' },
-          '10%, 30%, 50%, 70%, 90%': { transform: 'translateX(-5px)' },
-          '20%, 40%, 60%, 80%': { transform: 'translateX(5px)' },
+          '0%': { transform: 'translateX(0px) rotate(0deg)' },
+          '25%': { transform: 'translateX(-1.5px) rotate(-0.4deg)' },
+          '75%': { transform: 'translateX(1.5px) rotate(0.4deg)' },
+          '100%': { transform: 'translateX(0px) rotate(0deg)' },
         }
       },
       animation: {
@@ -107,7 +108,7 @@ export default {
         'accordion-up': 'accordion-up 0.2s ease-out',
         'gradient-shift': 'gradient-shift 15s ease infinite',
         'float': 'float 3s ease-in-out infinite',
-        'shake': 'shake 0.8s cubic-bezier(.36,.07,.19,.97) infinite',
+        'shake': 'shake 2.8s ease-in-out infinite',
       },
       backgroundSize: {
         '400%': '400% 400%',
