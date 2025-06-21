@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Phone, ArrowDown } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
+import guganphoto from "@/app/IMG_20250305_132232.jpg"
 
 const scrollToSection = (id: string) => {
   const element = document.getElementById(id);
@@ -63,7 +64,7 @@ export function HeroSection() {
         </div>
         <div className="w-full max-w-md lg:max-w-none lg:w-2/5 flex justify-center lg:justify-end mt-10 lg:mt-0">
           <Image
-            src="https://placehold.co/400x600.png"
+            src= {guganphoto}
             alt="Gugan.V Profile Picture Placeholder"
             width={400}
             height={600}

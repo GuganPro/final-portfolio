@@ -36,7 +36,7 @@ export function Header() {
       <div className="container flex h-16 max-w-screen-2xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="#hero" passHref className="flex items-center space-x-2" onClick={(e) => {e.preventDefault(); scrollToSection('hero');}}>
           <CodeXml className="h-8 w-8 text-primary" />
-          <span className="font-bold text-xl text-gradient">GuganVerse</span>
+          <span className="font-bold text-xl text-gradient">Gugan</span>
         </Link>
         
         <div className="hidden md:flex items-center space-x-2">

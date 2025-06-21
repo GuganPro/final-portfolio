@@ -35,6 +35,15 @@ const projects: Project[] = [
     githubUrl: "#",   // Placeholder
     tags: ["JavaScript", "React", "Security", "Utility"],
   },
+  {
+    title: "URL Shortener",
+    description: "This project provides a simple and efficient way to shorten long URLs. It features a user-friendly interface to enter a long URL, a button to generate a shortened URL, and a system to redirect users from the short URL to the original long URL.",
+    imageUrl: "https://placehold.co/600x400.png",
+    imageHint: "url link",
+    liveDemoUrl: "#",
+    githubUrl: "#",
+    tags: ["Java", "Spring Boot", "Backend", "URL"],
+  },
 ];
 
 export function ProjectsSection() {
