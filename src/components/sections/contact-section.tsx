@@ -41,7 +41,7 @@ export function ContactSection() {
             <div>
               <h3 className="text-2xl font-semibold mb-4 text-foreground">Find me on</h3>
               <div className="flex space-x-6">
-                <Link href="https://linkedin.com/in/placeholder" target="_blank" rel="noopener noreferrer" aria-label="GUGAN.V LinkedIn" className="text-muted-foreground hover:text-primary transition-colors transform hover:scale-110">
+                <Link href="https://www.linkedin.com/in/gugan-gugan-99087a328" target="_blank" rel="noopener noreferrer" aria-label="GUGAN.V LinkedIn" className="text-muted-foreground hover:text-primary transition-colors transform hover:scale-110">
                   <Linkedin size={32} />
                 </Link>
                 <Link href="https://github.com/placeholder" target="_blank" rel="noopener noreferrer" aria-label="GUGAN.V GitHub" className="text-muted-foreground hover:text-primary transition-colors transform hover:scale-110">

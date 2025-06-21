@@ -4,7 +4,13 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { ExternalLink, Github } from "lucide-react";
+import port1 from "@/app/port.png"
+import carr from "@/app/carrom.jpeg"
+import otp from "@/app/otp.jpeg"
+import pass from "@/app/pasword.jpeg"
+import cert from "@/app/certfi.png"
 import Image from "next/image";
+
 
 interface Project {
   title: string;
@@ -20,46 +26,46 @@ const projects: Project[] = [
   {
     title: "Personal Portfolio Website",
     description: "This very portfolio website, designed to showcase my skills and projects. Built with Next.js, Tailwind CSS, and ShadCN UI, it features a modern and interactive design, smooth animations, and an AI-powered resume analyzer.",
-    imageUrl: "https://placehold.co/600x400.png",
+    imageUrl:port1,
     imageHint: "developer portfolio",
     liveDemoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/GuganPro/portfolio.git",
     tags: ["Next.js", "React", "Tailwind CSS", "ShadCN UI", "Genkit"],
   },
   {
     title: "Certificate Showcase Website",
     description: "A dedicated website to host and display my professional certifications, providing verifiable proof of my qualifications. Built to be clean, fast, and easily navigable.",
-    imageUrl: "https://placehold.co/600x400.png",
+    imageUrl: cert,
     imageHint: "certificate document",
     liveDemoUrl: "https://certificategugan.netlify.app/",
-    githubUrl: "#",
+    githubUrl: "https://github.com/GuganPro/certificat.git",
     tags: ["HTML", "CSS", "JavaScript", "Netlify"],
   },
   {
-    title: "URL Shortener",
-    description: "This project provides a simple and efficient way to shorten long URLs. It features a user-friendly interface to input a URL, a button to generate a shortened link, and a copy-to-clipboard functionality. The backend is built with Spring Boot, ensuring robustness and scalability.",
-    imageUrl: "https://placehold.co/600x400.png",
+    title: "Carrom Board Game",
+    description: "Developed a browser-based digital carrom board game with realistic physics and user interactions    Integrated real-time multiplayer support using WebSockets for synchronous gameplay between two players.",
+    imageUrl: carr,
     imageHint: "link shortening tool",
-    liveDemoUrl: "#", // Placeholder
+    liveDemoUrl: "https://rad-madeleine-dea730.netlify.app/", // Placeholder
     githubUrl: "#",   // Placeholder
-    tags: ["Java", "Spring Boot", "Web App", "Utility"],
+    tags: ["JavaScript", "CSS", "Web App", "HTML"],
   },
   {
     title: "OTP Generation and Verification",
     description: "This project implements a complete OTP generation and verification system. It features a user-friendly interface to enter a phone number, a button to send a random 4-digit OTP, and a verification system that confirms the correct OTP and redirects to a success page.",
-    imageUrl: "https://placehold.co/600x400.png",
+    imageUrl: otp,
     imageHint: "security interface",
     liveDemoUrl: "https://otpgugan.netlify.app/",
-    githubUrl: "#",   // Placeholder
-    tags: ["Java", "Spring Boot", "Security", "Frontend"],
+    githubUrl: "https://github.com/GuganPro/otp.git",   // Placeholder
+    tags: ["JavaScript", "Spring Boot", "Security", "Frontend"],
   },
   {
     title: "Password Generator",
     description: "A secure password generator application that allows users to create strong passwords based on a desired strength (8-20 characters) using a slider. Key features include copying the password to the clipboard and an option to save generated passwords for future reference.",
-    imageUrl: "https://placehold.co/600x400.png",
+    imageUrl: pass,
     imageHint: "password tool",
     liveDemoUrl: "https://passwordgugan.netlify.app/",
-    githubUrl: "#",   // Placeholder
+    githubUrl: "https://github.com/GuganPro/password-.git",   // Placeholder
     tags: ["JavaScript", "React", "Security", "Utility"],
   }
 ];

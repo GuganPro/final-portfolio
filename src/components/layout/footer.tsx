@@ -14,7 +14,7 @@ export function Footer() {
             <Link href="tel:+916374145929" aria-label="Call GUGAN.V" className="text-muted-foreground hover:text-primary transition-colors">
               <Phone size={24} />
             </Link>
-            <Link href="https://linkedin.com/in/placeholder" target="_blank" rel="noopener noreferrer" aria-label="GUGAN.V LinkedIn" className="text-muted-foreground hover:text-primary transition-colors">
+            <Link href="https://www.linkedin.com/in/gugan-gugan-99087a328" target="_blank" rel="noopener noreferrer" aria-label="GUGAN.V LinkedIn" className="text-muted-foreground hover:text-primary transition-colors">
               <Linkedin size={24} />
             </Link>
             <Link href="https://github.com/placeholder" target="_blank" rel="noopener noreferrer" aria-label="GUGAN.V GitHub" className="text-muted-foreground hover:text-primary transition-colors">

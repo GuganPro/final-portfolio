@@ -54,7 +54,7 @@ export function HeroSection() {
             <Link href="tel:+916374145929" aria-label="Call GUGAN.V" className="text-muted-foreground hover:text-primary transition-colors transform hover:scale-125">
               <Phone size={28} />
             </Link>
-            <Link href="https://linkedin.com/in/placeholder" target="_blank" rel="noopener noreferrer" aria-label="GUGAN.V LinkedIn" className="text-muted-foreground hover:text-primary transition-colors transform hover:scale-125">
+            <Link href="https://www.linkedin.com/in/gugan-gugan-99087a328" target="_blank" rel="noopener noreferrer" aria-label="GUGAN.V LinkedIn" className="text-muted-foreground hover:text-primary transition-colors transform hover:scale-125">
               <Linkedin size={28} />
             </Link>
             <Link href="https://github.com/placeholder" target="_blank" rel="noopener noreferrer" aria-label="GUGAN.V GitHub" className="text-muted-foreground hover:text-primary transition-colors transform hover:scale-125">
@@ -62,7 +62,7 @@ export function HeroSection() {
             </Link>
           </div>
         </div>
-        <div className="w-full max-w-md lg:max-w-none lg:w-2/5 flex justify-center lg:justify-end mt-10 lg:mt-0">
+        <div className="flex w-full max-w-md lg:max-w-none lg:w-2/5 justify-center lg:justify-end mt-10 lg:mt-0">
           <Image
             src= {guganphoto}
             alt="Gugan.V Profile Picture Placeholder"
