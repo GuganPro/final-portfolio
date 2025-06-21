@@ -21,7 +21,7 @@ const journeyItems: TimelineItem[] = [
     icon: <Award className="h-6 w-6 text-primary" />,
     title: "Certified Full-Stack Web Developer",
     description: "Gained a strong foundation through a blended learning approach, including comprehensive courses from LinkedIn Learning, CSC, and YouTube. Proficient in both front-end and back-end principles, including HTML, CSS, JavaScript, React, and Node.js.",
-    link: { text: "View Certificates", url: "#" }, // Placeholder
+    link: { text: "View Certificates", url: "https://certificategugan.netlify.app/" },
   },
   {
     type: "education",
