@@ -49,7 +49,7 @@ const projects: Project[] = [
     description: "This project implements a complete OTP generation and verification system. It features a user-friendly interface to enter a phone number, a button to send a random 4-digit OTP, and a verification system that confirms the correct OTP and redirects to a success page.",
     imageUrl: "https://placehold.co/600x400.png",
     imageHint: "security interface",
-    liveDemoUrl: "#", // Placeholder
+    liveDemoUrl: "https://otpgugan.netlify.app/",
     githubUrl: "#",   // Placeholder
     tags: ["Java", "Spring Boot", "Security", "Frontend"],
   },
