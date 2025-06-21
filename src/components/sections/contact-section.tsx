@@ -4,6 +4,7 @@
 import { Github, Linkedin, Mail, Phone, MapPin } from "lucide-react";
 import { ContactForm } from "@/components/contact-form";
 import Link from "next/link";
+import { WhatsappLogo } from "../icons/whatsapp-logo";
 
 export function ContactSection() {
   return (
@@ -46,6 +47,9 @@ export function ContactSection() {
                 </Link>
                 <Link href="https://github.com/GuganPro" target="_blank" rel="noopener noreferrer" aria-label="GUGAN.V GitHub" className="text-muted-foreground hover:text-primary transition-colors transform hover:scale-110">
                   <Github size={32} />
+                </Link>
+                <Link href="https://wa.me/916374145929" target="_blank" rel="noopener noreferrer" aria-label="GUGAN.V WhatsApp" className="text-muted-foreground hover:text-primary transition-colors transform hover:scale-110">
+                  <WhatsappLogo className="h-8 w-8" />
                 </Link>
               </div>
             </div>
