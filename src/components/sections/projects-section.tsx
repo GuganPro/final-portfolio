@@ -58,7 +58,7 @@ const projects: Project[] = [
     description: "A secure password generator application that allows users to create strong passwords based on a desired strength (8-20 characters) using a slider. Key features include copying the password to the clipboard and an option to save generated passwords for future reference.",
     imageUrl: "https://placehold.co/600x400.png",
     imageHint: "password tool",
-    liveDemoUrl: "#", // Placeholder
+    liveDemoUrl: "https://passwordgugan.netlify.app/",
     githubUrl: "#",   // Placeholder
     tags: ["JavaScript", "React", "Security", "Utility"],
   }
