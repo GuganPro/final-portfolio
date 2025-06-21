@@ -57,7 +57,7 @@ export function HeroSection() {
             <Link href="https://www.linkedin.com/in/gugan-gugan-99087a328" target="_blank" rel="noopener noreferrer" aria-label="GUGAN.V LinkedIn" className="text-muted-foreground hover:text-primary transition-colors transform hover:scale-125">
               <Linkedin size={28} />
             </Link>
-            <Link href="https://github.com/placeholder" target="_blank" rel="noopener noreferrer" aria-label="GUGAN.V GitHub" className="text-muted-foreground hover:text-primary transition-colors transform hover:scale-125">
+            <Link href="https://github.com/GuganPro" target="_blank" rel="noopener noreferrer" aria-label="GUGAN.V GitHub" className="text-muted-foreground hover:text-primary transition-colors transform hover:scale-125">
               <Github size={28} />
             </Link>
           </div>

@@ -17,7 +17,7 @@ export function Footer() {
             <Link href="https://www.linkedin.com/in/gugan-gugan-99087a328" target="_blank" rel="noopener noreferrer" aria-label="GUGAN.V LinkedIn" className="text-muted-foreground hover:text-primary transition-colors">
               <Linkedin size={24} />
             </Link>
-            <Link href="https://github.com/placeholder" target="_blank" rel="noopener noreferrer" aria-label="GUGAN.V GitHub" className="text-muted-foreground hover:text-primary transition-colors">
+            <Link href="https://github.com/GuganPro" target="_blank" rel="noopener noreferrer" aria-label="GUGAN.V GitHub" className="text-muted-foreground hover:text-primary transition-colors">
               <Github size={24} />
             </Link>
         </div>
