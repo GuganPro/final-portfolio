@@ -18,6 +18,15 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "Personal Portfolio Website",
+    description: "This very portfolio website, designed to showcase my skills and projects. Built with Next.js, Tailwind CSS, and ShadCN UI, it features a modern and interactive design, smooth animations, and an AI-powered resume analyzer.",
+    imageUrl: "https://placehold.co/600x400.png",
+    imageHint: "developer portfolio",
+    liveDemoUrl: "#",
+    githubUrl: "#",
+    tags: ["Next.js", "React", "Tailwind CSS", "ShadCN UI", "Genkit"],
+  },
+  {
     title: "OTP Generation and Verification",
     description: "This project implements a complete OTP generation and verification system. It features a user-friendly interface to enter a phone number, a button to send a random 4-digit OTP, and a verification system that confirms the correct OTP and redirects to a success page.",
     imageUrl: "https://placehold.co/600x400.png",
