@@ -9,6 +9,8 @@ import carr from "@/app/carrom.jpeg"
 import otp from "@/app/otp.jpeg"
 import pass from "@/app/pasword.jpeg"
 import cert from "@/app/certfi.png"
+import aim from "@/app/aimachan.jpeg"
+import studio from "@/app/webstudio.jpeg"
 import Image, { StaticImageData } from "next/image";
 
 
@@ -23,22 +25,23 @@ interface Project {
 }
 
 const projects: Project[] = [
-  {
-    title: "WebCraft Studio",
-    description: "A modern, responsive web application showcasing web development services, built with React and TypeScript. Features interactive 3D animations with React Three Fiber and a smooth user experience with Framer Motion.",
-    imageUrl: "https://placehold.co/600x400.png",
-    imageHint: "3d website design",
-    liveDemoUrl: "https://webcreaterstudio.netlify.app/",
-    tags: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "React Three Fiber"],
-  },
+ 
   {
     title: "MachaGPT: Conversational AI Assistant",
     description: "A sophisticated, full-stack conversational AI application built with Next.js and Google's Generative AI. This personalized assistant, \"MachaGPT,\" interacts in a natural Tanglish dialect, offering tailored support across technology, career development, and personal growth. Features include a dynamic chat interface, cloud-powered text-to-speech, and image upload capabilities.",
-    imageUrl: "https://placehold.co/600x400.png",
+    imageUrl: aim,
     imageHint: "chatbot interface",
     liveDemoUrl: "https://guganaiasistent.netlify.app/",
     githubUrl: "#",
     tags: ["Next.js", "Genkit", "Gemini Pro", "Firebase", "Tailwind CSS", "TTS"],
+  },
+   {
+    title: "WebCraft Studio",
+    description: "A modern, responsive web application showcasing web development services, built with React and TypeScript. Features interactive 3D animations with React Three Fiber and a smooth user experience with Framer Motion.",
+    imageUrl: studio,
+    imageHint: "3d website design",
+    liveDemoUrl: "https://webcreaterstudio.netlify.app/",
+    tags: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "React Three Fiber"],
   },
   {
     title: "Personal Portfolio Website",
