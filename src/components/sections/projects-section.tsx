@@ -9,13 +9,13 @@ import carr from "@/app/carrom.jpeg"
 import otp from "@/app/otp.jpeg"
 import pass from "@/app/pasword.jpeg"
 import cert from "@/app/certfi.png"
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 
 interface Project {
   title: string;
   description: string;
-  imageUrl?: string;
+  imageUrl?: string | StaticImageData;
   imageHint?: string;
   liveDemoUrl?: string;
   githubUrl?: string;
@@ -23,6 +23,15 @@ interface Project {
 }
 
 const projects: Project[] = [
+  {
+    title: "MachaGPT: Conversational AI Assistant",
+    description: "A sophisticated, full-stack conversational AI application built with Next.js and Google's Generative AI. This personalized assistant, \"MachaGPT,\" interacts in a natural Tanglish dialect, offering tailored support across technology, career development, and personal growth. Features include a dynamic chat interface, cloud-powered text-to-speech, and image upload capabilities.",
+    imageUrl: "https://placehold.co/600x400.png",
+    imageHint: "chatbot interface",
+    liveDemoUrl: "https://guganaiasistent.netlify.app/",
+    githubUrl: "#",
+    tags: ["Next.js", "Genkit", "Gemini Pro", "Firebase", "Tailwind CSS", "TTS"],
+  },
   {
     title: "Personal Portfolio Website",
     description: "This very portfolio website, designed to showcase my skills and projects. Built with Next.js, Tailwind CSS, and ShadCN UI, it features a modern and interactive design, smooth animations, and an AI-powered resume analyzer.",
@@ -43,11 +52,11 @@ const projects: Project[] = [
   },
   {
     title: "Carrom Board Game",
-    description: "Developed a browser-based digital carrom board game with realistic physics and user interactions    Integrated real-time multiplayer support using WebSockets for synchronous gameplay between two players.",
+    description: "Developed a browser-based digital carrom board game with realistic physics and user interactions. Integrated real-time multiplayer support using WebSockets for synchronous gameplay between two players.",
     imageUrl: carr,
     imageHint: "link shortening tool",
-    liveDemoUrl: "https://rad-madeleine-dea730.netlify.app/", // Placeholder
-    githubUrl: "#",   // Placeholder
+    liveDemoUrl: "https://rad-madeleine-dea730.netlify.app/",
+    githubUrl: "#",
     tags: ["JavaScript", "CSS", "Web App", "HTML"],
   },
   {
@@ -56,7 +65,7 @@ const projects: Project[] = [
     imageUrl: otp,
     imageHint: "security interface",
     liveDemoUrl: "https://otpgugan.netlify.app/",
-    githubUrl: "https://github.com/GuganPro/otp.git",   // Placeholder
+    githubUrl: "https://github.com/GuganPro/otp.git",
     tags: ["JavaScript", "Spring Boot", "Security", "Frontend"],
   },
   {
@@ -65,7 +74,7 @@ const projects: Project[] = [
     imageUrl: pass,
     imageHint: "password tool",
     liveDemoUrl: "https://passwordgugan.netlify.app/",
-    githubUrl: "https://github.com/GuganPro/password-.git",   // Placeholder
+    githubUrl: "https://github.com/GuganPro/password-.git",
     tags: ["JavaScript", "React", "Security", "Utility"],
   }
 ];
