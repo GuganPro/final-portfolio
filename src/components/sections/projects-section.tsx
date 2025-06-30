@@ -24,6 +24,14 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "WebCraft Studio",
+    description: "A modern, responsive web application showcasing web development services, built with React and TypeScript. Features interactive 3D animations with React Three Fiber and a smooth user experience with Framer Motion.",
+    imageUrl: "https://placehold.co/600x400.png",
+    imageHint: "3d website design",
+    liveDemoUrl: "https://webcreaterstudio.netlify.app/",
+    tags: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "React Three Fiber"],
+  },
+  {
     title: "MachaGPT: Conversational AI Assistant",
     description: "A sophisticated, full-stack conversational AI application built with Next.js and Google's Generative AI. This personalized assistant, \"MachaGPT,\" interacts in a natural Tanglish dialect, offering tailored support across technology, career development, and personal growth. Features include a dynamic chat interface, cloud-powered text-to-speech, and image upload capabilities.",
     imageUrl: "https://placehold.co/600x400.png",
@@ -54,7 +62,7 @@ const projects: Project[] = [
     title: "Carrom Board Game",
     description: "Developed a browser-based digital carrom board game with realistic physics and user interactions. Integrated real-time multiplayer support using WebSockets for synchronous gameplay between two players.",
     imageUrl: carr,
-    imageHint: "link shortening tool",
+    imageHint: "carrom board game",
     liveDemoUrl: "https://rad-madeleine-dea730.netlify.app/",
     githubUrl: "#",
     tags: ["JavaScript", "CSS", "Web App", "HTML"],
