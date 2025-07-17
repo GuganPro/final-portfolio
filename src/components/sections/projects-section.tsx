@@ -25,22 +25,23 @@ interface Project {
 }
 
 const projects: Project[] = [
- 
+  
   {
     title: "MachaGPT: Conversational AI Assistant",
     description: "A sophisticated, full-stack conversational AI application built with Next.js and Google's Generative AI. This personalized assistant, \"MachaGPT,\" interacts in a natural Tanglish dialect, offering tailored support across technology, career development, and personal growth. Features include a dynamic chat interface, cloud-powered text-to-speech, and image upload capabilities.",
     imageUrl: aim,
     imageHint: "chatbot interface",
     liveDemoUrl: "https://guganaiasistent.netlify.app/",
-    githubUrl: "#",
+    githubUrl: "https://github.com/GuganPro/GUGAN-ai-v2.git",
     tags: ["Next.js", "Genkit", "Gemini Pro", "Firebase", "Tailwind CSS", "TTS"],
   },
-   {
+  {
     title: "WebCraft Studio",
     description: "A modern, responsive web application showcasing web development services, built with React and TypeScript. Features interactive 3D animations with React Three Fiber and a smooth user experience with Framer Motion.",
     imageUrl: studio,
     imageHint: "3d website design",
     liveDemoUrl: "https://webcreaterstudio.netlify.app/",
+    githubUrl: "https://github.com/GuganPro/pro-web-showcase.git",
     tags: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "React Three Fiber"],
   },
   {
