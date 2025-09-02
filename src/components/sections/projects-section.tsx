@@ -59,7 +59,7 @@ const projects: Project[] = [
     description: "This very portfolio website, designed to showcase my skills and projects. Built with Next.js, Tailwind CSS, and ShadCN UI, it features a modern and interactive design, smooth animations, and an AI-powered resume analyzer.",
     imageUrl:vision,
     imageHint: "Vision Weaver",
-    liveDemoUrl: "#",
+    liveDemoUrl: "https://aiimagecreate.netlify.app/",
     githubUrl: "https://github.com/GuganPro/aimage.git",
     tags: ["Next.js", "React", "Tailwind CSS", "ShadCN UI", "Genkit"],
   },
