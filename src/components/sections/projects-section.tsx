@@ -10,6 +10,7 @@ import otp from "@/app/otp.jpeg"
 import pass from "@/app/pasword.jpeg"
 import cert from "@/app/certfi.png"
 import aim from "@/app/aimachan.jpeg"
+import vision from "@/app/Vision Weaver.jpeg"
 import studio from "@/app/webstudio.jpeg"
 import Image, { StaticImageData } from "next/image";
 
@@ -51,6 +52,15 @@ const projects: Project[] = [
     imageHint: "developer portfolio",
     liveDemoUrl: "#",
     githubUrl: "https://github.com/GuganPro/portfolio.git",
+    tags: ["Next.js", "React", "Tailwind CSS", "ShadCN UI", "Genkit"],
+  },
+  {
+    title: "AI Vision Weaver ",
+    description: "This very portfolio website, designed to showcase my skills and projects. Built with Next.js, Tailwind CSS, and ShadCN UI, it features a modern and interactive design, smooth animations, and an AI-powered resume analyzer.",
+    imageUrl:vision,
+    imageHint: "Vision Weaver",
+    liveDemoUrl: "#",
+    githubUrl: "https://github.com/GuganPro/aimage.git",
     tags: ["Next.js", "React", "Tailwind CSS", "ShadCN UI", "Genkit"],
   },
   {
